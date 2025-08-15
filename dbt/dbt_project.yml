@@ -1,0 +1,14 @@
+name: 'lending_club_analytics'
+version: '1.0.0'
+
+config-version: 2
+
+profile: 'lending_club_analytics'
+
+models:
+  lending_club_analytics:
+    materialized: table
+    staging:
+      materialized: view
+    marts:
+      materialized: table
